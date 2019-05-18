@@ -1,0 +1,102 @@
+/* Global */
+body{
+    font-family: Verdana;
+    font-size: 22px;
+    color:rgb(62, 68, 68);
+    /* font-weight: bold; */
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    position: fixed;
+    background-color: white;
+    width:  100%;
+    height: 64px;
+}
+
+.logo-container{
+    display:flex;
+}
+.logo-container img{
+    
+}
+.logo-container p{
+    font-weight: 600;
+    font-size:26px;
+}
+
+.logo-container p span{
+    color: darkgrey;
+    font-weight: 300;
+}
+
+nav{
+    margin-right: 2.5em;
+}
+.navigation li{
+    display: inline-block;
+    margin-left: 16px;
+}
+.navigation li a{
+    text-decoration: none;
+}
+
+/* Content */
+
+/* Banner */
+#banner{
+    padding-top: 3em;
+}
+.banner-container{
+    display: flex;
+    background-color: rgb(206, 210, 210);
+    padding: 32px 24px;
+    
+}
+.banner-image-container{
+    width: 60%;
+}
+.banner-image-container img{
+    width: 100%;
+}
+.banner-content{
+    padding-left: 24px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button{
+  background-color: rgb(71, 82, 82);
+  border: none;
+  color: white;
+  padding: 8px 0;
+  text-align: center;
+  font-size: 18px;
+  width: 90%;
+}
+
+/* Information */
+.information-container{
+    display: flex;
+    background-color: white;
+    padding: 32px 24px;
+}
+.information-left{
+   
+}
+.information-image-container img{
+    width:100%;
+}
+.information-right{
+   
+}
+.information-right-box{
+    display: flex;
+}
+.box-image-container img{
+    width: 100%;
+}
